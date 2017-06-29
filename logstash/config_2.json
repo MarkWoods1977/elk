@@ -1,0 +1,13 @@
+input {
+    file {
+        path => "C:\DevTools\logstash-5.4.2\test\app.log"
+        start_position => beginning
+    }
+}
+
+output {
+    stdout { }
+	file {
+	    path => "C:\DevTools\logstash-5.4.2\test\out.log"
+	}
+}
