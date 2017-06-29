@@ -16,3 +16,9 @@ Choose the required example
 
 * [logstash-directory]\data\plugins\inputs\file
 * Remove the .sincedb file
+
+### Useful links for grokking
+
+* https://qbox.io/blog/logstash-grok-filter-tutorial-patterns
+* http://grokdebug.herokuapp.com/
+
